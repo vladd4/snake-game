@@ -1,6 +1,4 @@
-<p align="center">
-  Simple Snake Game JS
-</p>
+# Simple Snake Game JS
 <p align="center">
     <img src="https://img.shields.io/badge/Project%20Version-1.0.0-green" alt="Project Version">
 </p>

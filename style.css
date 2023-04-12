@@ -1,0 +1,38 @@
+.canvas {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.active {
+    opacity: 0.5;
+}
+.game-over {
+    background-color: #fff;
+    width: 404px;
+    height: 304px;
+    position: absolute;
+    top: 23%;
+    left: 36.5%;
+    place-items: center;
+    border: 1px solid grey;
+    display: none;
+}
+.wrapper {
+    display: grid;
+    place-items: center;
+}
+.restart {
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #fff;
+    scale: 1;
+    transition: all .3s;
+    cursor: pointer;
+}
+.restart:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.score-h {
+    margin-bottom: -10px;
+}
